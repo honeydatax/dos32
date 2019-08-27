@@ -13,8 +13,10 @@
 			document.getElementById("door").addEventListener("click",change,false);
 			function change(e){
 				var door =-1;
-				var xp=e.clientX-10;
-				var yp=e.clientY-10;
+				//var xp=e.clientX-e.pageX;
+				//var yp=e.clientY-e.pageY;
+				var xp=e.offsetX;
+				var yp=e.offsetY;
 				// poly 5
 				if ( xp>(180+290) && yp>70 && xp<(205+290) && yp<200) door=0;
 				// poly 7
