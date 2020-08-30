@@ -1,5 +1,5 @@
-# dos 64
+# dos 32
 
-console dos 64
+console dos 32
 o
 
